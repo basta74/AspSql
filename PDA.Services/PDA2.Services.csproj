@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PDA.Data\PDA2.Data.csproj" />
+    <ProjectReference Include="..\PDA2.Models\PDA2.Models.csproj" />
+  </ItemGroup>
+
+</Project>
